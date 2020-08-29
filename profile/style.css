@@ -25,12 +25,12 @@ body {
 
 @media (max-width:767.98px) {
     .padding {
-        padding: 1rem
+        padding: 0rem
     }
 }
 
 .padding {
-    padding: 3rem
+    padding: 0rem
 }
 
 .box-widget {
