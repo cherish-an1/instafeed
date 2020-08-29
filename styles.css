@@ -1,0 +1,53 @@
+.profile-head {
+    transform: translateY(5rem)
+}
+
+.cover {
+    background-image: url("asset/flower2.png");
+    background-size: cover;
+    background-repeat: no-repeat
+}
+
+body {
+    background: #654ea3;
+    background: linear-gradient(to right, #e96443, #904e95);
+    min-height: 100vh
+}
+/* .cover {
+    background-image: url(https://images.unsplash.com/photo-1530305408560-82d13781b33a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1352&q=80);
+    background-size: cover;
+    background-repeat: no-repeat
+} */
+
+.container {
+    position: relative;
+  }
+  
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    margin-bottom: 20px;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .container:hover .image {
+    opacity: 0.7;
+  }
+  
+  .container:hover .middle {
+    opacity: 1;
+  }
